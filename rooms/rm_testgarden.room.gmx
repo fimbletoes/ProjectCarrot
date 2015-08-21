@@ -53,7 +53,6 @@
   <instances>
     <instance objName="obj_carrot" x="544" y="320" name="inst_C07B480C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="416" y="256" name="inst_A188C2A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstacle" x="416" y="288" name="inst_A5823DD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="416" y="320" name="inst_0AC62B78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="416" y="352" name="inst_45938C83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="416" y="384" name="inst_219370AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -87,6 +86,8 @@
     <instance objName="obj_lightController" x="32" y="64" name="inst_9C133249" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wave" x="32" y="96" name="inst_BF59E1E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_light" x="32" y="128" name="inst_F3BB3755" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fence_perimeter" x="352" y="352" name="inst_01427E59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstacle" x="416" y="288" name="inst_4DF6950F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

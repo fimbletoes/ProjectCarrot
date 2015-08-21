@@ -65,7 +65,7 @@ rabbitCount = 0;
 
 secondsSinceLastRabbit = secondsSinceLastRabbit + 1/room_speed;
 
-show_debug_message("Count " + string(secondsSinceLastRabbit));
+//show_debug_message("Count " + string(secondsSinceLastRabbit));
 
 //Spawns a rabbit every x 
 if(secondsSinceLastRabbit &gt;= secondsBetweenRabbits) {
