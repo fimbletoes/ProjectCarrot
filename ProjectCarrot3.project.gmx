@@ -11,6 +11,7 @@
     <sprite>sprites\spr_obstacle</sprite>
     <sprite>sprites\spr_exit</sprite>
     <sprite>sprites\spr_fence_perimeter</sprite>
+    <sprite>sprites\spr_hole</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,8 +32,11 @@
     <object>objects\obj_light</object>
     <object>objects\obj_exit</object>
     <object>objects\obj_wave</object>
+    <object>objects\obj_fence_perimeter</object>
+    <object>objects\obj_hole</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_testgarden</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>

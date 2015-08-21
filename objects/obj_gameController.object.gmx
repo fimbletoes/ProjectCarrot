@@ -108,11 +108,11 @@ secondsSinceLastEnemySpawn = secondsSinceLastEnemySpawn + 1/room_speed;
             <kind>1</kind>
             <string>depth = -3;
 draw_set_color(c_white);
-draw_text(x+200,y+50,"Rabbits Stopped " + string(playerScore));
-draw_text(x+200,y+100,"Carrots Stolen " + string(carrotsStolen));
-draw_text(x+200,y+150,"Carrots Stored " + string(rabbitScore));
-draw_text(x+200,y+200,"Rabbits Spawned " + string(obj_wave.rabbitCount));
-draw_text(x+200,y+250,"Wave " + string(obj_wave.wave));
+draw_text(x+750,y+50,"Rabbits Stopped " + string(playerScore));
+draw_text(x+750,y+100,"Carrots Stolen " + string(carrotsStolen));
+draw_text(x+750,y+150,"Carrots Stored " + string(rabbitScore));
+draw_text(x+750,y+200,"Rabbits Spawned " + string(obj_wave.rabbitCount));
+draw_text(x+750,y+250,"Wave " + string(obj_wave.wave));
 </string>
           </argument>
         </arguments>
