@@ -29,7 +29,7 @@
 state = scr_enemy_entering;
 pickWaitTime = 50;
 vegQuantity = 1;
-
+path=path_add();
 
 rollover = false;
 clicked = false;
@@ -109,6 +109,7 @@ draw_set_valign(fa_middle);
 draw_self();
 draw_set_color(c_red);
 draw_text(x,y, state_text);
+
 
 </string>
           </argument>

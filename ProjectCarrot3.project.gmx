@@ -34,6 +34,7 @@
     <object>objects\obj_wave</object>
     <object>objects\obj_fence_perimeter</object>
     <object>objects\obj_hole</object>
+    <object>objects\obj_grid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_testgarden</room>
