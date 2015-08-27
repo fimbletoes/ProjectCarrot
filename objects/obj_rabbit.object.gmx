@@ -25,18 +25,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>state_text = 'entering';
-state = scr_enemy_entering;
+            <string>//Rabbit stats
 pickWaitTime = 50;
 vegQuantity = 1;
-path=path_add();
-
-rollover = false;
-clicked = false;
 spd = 5;
 depth = 1;
 image_index = 0;
 image_speed = 0;
+
+//Mouse checker
+rollover = false;
+clicked = false;
+
+//Rabbit goal vegtable
+targetObject = obj_carrot; //need to create a choose state for random targetObject selection depending on type of rabbit
+
+//Ai State variables
+state_text = 'entering';
+state = scr_enemy_entering;
+
+//Ai Path finding
+path = path_add();
+mp_grid_add_instances(path, obj_obstacle,true);
+
+
 </string>
           </argument>
         </arguments>
@@ -104,12 +116,11 @@ if position_meeting(obj_exit.x, obj_exit.y,self) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
-draw_self();
+            <string>draw_self();
 draw_set_color(c_red);
 draw_text(x,y, state_text);
-
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
 
 </string>
           </argument>

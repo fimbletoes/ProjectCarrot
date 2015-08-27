@@ -2,4 +2,6 @@
 
 state_text = 'exiting';
 
-scr_walkTowards(obj_exit);
+scr_pathfinding(obj_exit);
+
+

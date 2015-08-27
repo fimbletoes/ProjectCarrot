@@ -22,6 +22,7 @@
     <script>scripts\scr_enemy_exiting.gml</script>
     <script>scripts\scr_enemy_spawn.gml</script>
     <script>scripts\scr_enemy_dig.gml</script>
+    <script>scripts\scr_pathfinding.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_rabbit</object>

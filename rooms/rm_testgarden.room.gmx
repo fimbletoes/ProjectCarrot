@@ -76,8 +76,6 @@
     <instance objName="obj_obstacle" x="640" y="224" name="inst_014C9267" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="608" y="224" name="inst_CA86CEDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="576" y="224" name="inst_4A8D239D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstacle" x="544" y="224" name="inst_90AA8244" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstacle" x="512" y="224" name="inst_0A3CFB6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="480" y="224" name="inst_4850D06A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="448" y="224" name="inst_AE12F21C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle" x="416" y="224" name="inst_0CEA3D04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
